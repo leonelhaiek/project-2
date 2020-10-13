@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.cimg{
+    background-image:url('../project-2/images/virus.jpg');
+    background-position: center;
+    height: 100vh;
+
+}
+#navbar ul{
+ padding-top: 5px;
+ list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+
+#a1{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    position: absolute;
+    right: 875px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#a2{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color:#3c3c3c;
+    right: 115px;
+
+    
+}
+#a3{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    position: absolute;
+    right: 50px;
+}
+
+.txtt h1 {
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    position: relative;
+    top:675px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.txtt h3{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    top:710px;
+    margin-left: 40px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    
+
+
+}
+
+.spn{
+    color:#888;
+    letter-spacing: 0.01em;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#a4{
+    width: 50px;
+    height:50px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.autor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.autor p{
+    color: black;
+    font-weight: bold;
+    float: left;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.txt{
+    width: 30%;
+    margin:auto;
+    font-family: 'times new roman',times,serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem
+
+}
+.txt p {
+    margin-top: 15px;
+    margin-bottom: 0.9375rem;
+}
+
+#v1{
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    display: flex;
+    color: #326891;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    text-decoration: underline;
+    
+}
+
+ .v3{
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 37px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+   
+ }
+
+.v4{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+.v5{ 
+    
+    margin-top: 0px;
+
+    border:none;
+}
+
+
+.v7{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    display: inline-block;
+    color: #326891;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    margin-bottom: 5px;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.v8{
+    font-family:georgia,'times new roman',times,serif;
+    color: #666;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+#v9{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+.vop{
+    color: #326891;
+    text-decoration: none;
+}
+
+.lab h1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lab section{
+    display: block;
+}
+
+.sec{
+    display: flex;
+    margin-top: 10px;
+    min-width: 600px;
+    flex: 1 1 0%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.sec2{
+    flex: 1 1 0%;
+}
+.sech{
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    height: 25px;
+    line-height: 15px;
+    margin: 0px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.secul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.fo{
+    text-align: center;
+    color: #666;
+}
